@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 39%;
+    gap: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: 0.25s;
+}
+
+a:hover{
+    background-color:  #c20303;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:40px 20px 0 20px ;
+}
+
+body{
+    background-image: url("kiii.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.container .heading {
+    color: #ffffff;
+    text-shadow: #000000;
+    font-size: 3em;
+    padding-bottom: 10px;
+    font-weight: bolder;
+   
+}
+
+iframe{
+    margin-top: 2%;
+    height: 550px;
+    width: 800px;
+}
+
+
+
+
+@media only screen and (max-width:841px) {
+ iframe{
+    height: 400px;
+    width: 600px;
+ }
+
+ .container .heading{
+    width: 100%;
+}
+
+.container .heading {
+   
+    font-size: 2em;
+    
+}
+
+nav{
+    margin-left: 15%;
+}
+}
+
+@media only screen and (min-width:200px) {
+    iframe{
+   height: 350px;
+   width: 350px;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.container .heading{
+   width: 100%;
+}
+
+.container .heading {
+  
+   font-size: 1.5em;
+   
+}
+
+nav{
+   margin-left: 1%;
+   gap: 1px;
+   font-size: 0.9em;
+}
+}
+
+@media only screen and (min-width:768px) {
+    iframe{
+   height: 420px;
+   width: 600px;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.container .heading{
+   width: 100%;
+}
+
+.container .heading {
+  
+   font-size: 3em;
+   
+   
+}
+
+nav{
+   margin-left: 18%;
+   gap: 30px;
+   font-size: 0.9em;
+}
+}
+
+@media only screen and (min-width:1024px) {
+   
+nav{
+   margin-left: 27%;
+   gap: 30px;
+   font-size: 1em;
+}
+}
+
